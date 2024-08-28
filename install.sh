@@ -19,4 +19,4 @@ else
     docker run -d --name=DesktopOnCodespaces -e PUID=1000 -e PGID=1000 --security-opt seccomp=unconfined -e TZ=Etc/UTC -e SUBFOLDER=/ -e TITLE=GamingOnCodespaces -p 3000:3000 --shm-size="2gb" -v $(pwd)/Save:/config --restart unless-stopped desktoponcodespaces
 fi
 clear
-echo "INSTALL FINISHED! Check Port Tab"
+echo "login atpasap DesktopOnCodespaces -e PUID=1000 -e PGID=1000 "
